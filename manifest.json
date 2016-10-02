@@ -4,7 +4,7 @@
   "short_name": "SouthRidge",
     "display": "fullscreen",
   "orientation": "landscape",
-  "name": "South Ridge Video",
+  "name": "South Ridge Xbox UWP Video",
   "scope":"/", 
    "mjs_access_whitelist": [
     {
