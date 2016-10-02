@@ -1,6 +1,6 @@
 
 {
-    "start_url": "http://southridge.azurewebsites.net",
+    "start_url": "http://scxboxtest.azurewebsites.net/",
   "short_name": "SouthRidge",
     "display": "fullscreen",
   "orientation": "landscape",
@@ -8,11 +8,11 @@
   "scope":"/", 
    "mjs_access_whitelist": [
     {
-      "url": "https://southridge.azurewebsites.net",
+      "url": "https://scxboxtest.azurewebsites.net/",
       "apiAccess": "all"
     },
         {
-      "url": "http://southridge.azurewebsites.net",
+      "url": "http://scxboxtest.azurewebsites.net/",
       "apiAccess": "all"
     }
   ],
