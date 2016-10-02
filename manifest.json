@@ -1,7 +1,7 @@
 
 {
     "start_url": "http://scxboxtest.azurewebsites.net/",
-  "short_name": "SouthRidge",
+  "short_name": "SouthRidgeXbox",
     "display": "fullscreen",
   "orientation": "landscape",
   "name": "South Ridge Xbox UWP Video",
