@@ -205,7 +205,7 @@ class MoviePlayer extends React.Component {
     return(
       <div id="videoContainer" className="moviePlayer">
  	      <video id="myVideo" controls="true" width="100%" height="100%" autoPlay>
- 		      <source src="http://video.ch9.ms/ch9/2f52/44b36f3c-0822-40b1-9926-6771225a2f52/mjsNapol01_high.mp4" type="video/mp4"></source>
+ 		      <source src="https://ec-hls-media.soundcloud.com/playlist/yfzAMWkhuYGW.128.mp3/playlist.m3u8?f10880d39085a94a0418a7e062b03d52bbdc0e179b82bde1d76ce3a010456407d1151e225404a403100da7f44300777c053463415b8d9ff28d6ee95b9528d6f8cd7c79830d6c96f772064bda1d002d72e0f5a08089653b2fb900f0ae" type="video/mp4"></source>
  	      </video>
 	<div id="videoControls" className="controls">
 		
