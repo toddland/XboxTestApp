@@ -76,6 +76,9 @@ function initializePlayer(){
 	vid.addEventListener("pause", mediaPaused);
   	vid.addEventListener("playing", mediaPlaying);
   	vid.addEventListener("ended", mediaEnded);
+
+	    //load up the local winmd
+	  var titleBarHelper = CoreViewHelpers.CoreTitleBarHelper.getForCurrentView();
 	  	}
 }
 
