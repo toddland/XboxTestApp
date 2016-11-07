@@ -83,6 +83,9 @@ function initializePlayer(){
 	  {
 		  alert("Titlebar!");
 	  }
+	  else{
+		  alert("NO Titlebar!");
+	  }
 	  	}
 }
 
