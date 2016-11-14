@@ -71,16 +71,15 @@ function initializePlayer(){
 
 		systemMediaControls.playbackStatus = Windows.Media.MediaPlaybackStatus.closed;
 
-
 	//Hookup SMTC functions
 	vid.addEventListener("pause", mediaPaused);
   	vid.addEventListener("playing", mediaPlaying);
   	vid.addEventListener("ended", mediaEnded);
 
-	    //load up the local winmd
-//	  var titleBarHelper = window.CoreTitleBarHelper.getForCurrentView();//.getForCurrentView();
-	
-  	}
+	  //load up the local winmd
+	  var titleBarHelper = CoreViewHelpers.CoreTitleBarHelper.getForCurrentView();
+
+	  	}
 }
 
 //SMTC functions
