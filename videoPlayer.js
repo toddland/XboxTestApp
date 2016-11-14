@@ -78,7 +78,7 @@ function initializePlayer(){
   	vid.addEventListener("ended", mediaEnded);
 
 	    //load up the local winmd
-	  var titleBarHelper = CoreViewHelpers.CoreTitleBarHelper;//.getForCurrentView();
+	  var titleBarHelper = window.CoreTitleBarHelper.getForCurrentView();//.getForCurrentView();
 	
   	}
 }
