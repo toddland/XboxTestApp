@@ -79,14 +79,8 @@ function initializePlayer(){
 
 	    //load up the local winmd
 	  var titleBarHelper = CoreViewHelpers.CoreTitleBarHelper.getForCurrentView();
-	  if(titleBarHelper)
-	  {
-		  alert("Titlebar!");
-	  }
-	  else{
-		  alert("NO Titlebar!");
-	  }
-	  	}
+	
+  	}
 }
 
 //SMTC functions
