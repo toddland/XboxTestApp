@@ -76,9 +76,10 @@ function initializePlayer(){
 		vid.addEventListener("playing", mediaPlaying);
 		vid.addEventListener("ended", mediaEnded);
 
+alert("Hello! I am an alert box!!");
 		//load up the local winmd
 	    var titleBarHelper = CoreViewHelpers.CoreTitleBarHelper.getForCurrentView();
-
+alert(titleBarHelper);
 	  	}
 }
 
